@@ -75,7 +75,7 @@ $ bin/rails db:create db:migrate db:seed
 $ bin/rails s
 ```
 
-If I now use [`httpie`]() for route `localhost:3000/posts`, we will get all posts:
+If I now use [`httpie`](https://httpie.io/cli) for route `localhost:3000/posts`, we will get all posts:
 
 ```s
 $ http GET localho
